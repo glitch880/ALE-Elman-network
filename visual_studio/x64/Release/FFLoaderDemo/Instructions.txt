@@ -1,0 +1,13 @@
+To start the agent use the command window.
+
+This application plays a certain index from the population and outputs a number of still frames to be used for video creation.
+
+The program needs 4 arguments
+
+1 : The filename of the rom to play
+2 : The filename of the weight array to load
+3 : What frame skip to use
+4 : Which index in the population to demo
+
+example:
+Agent.exe Space_invaders weightArray 15 96

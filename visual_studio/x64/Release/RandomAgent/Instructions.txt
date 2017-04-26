@@ -1,0 +1,12 @@
+To start the agent use the command window.
+
+This agent randomly picks a action every 15th frame.
+
+The program needs 3 argument
+
+1 : Rom file 
+2 : Where to save results
+3 : How many episodes to play
+
+Example :
+Agent.exe space_Invader RandomResult 14

@@ -1,0 +1,14 @@
+To start the agent use the command window.
+
+This application loads a network trained by the feedforward agent. It then prints the results to a file
+
+The program needs 4 arguments
+
+1 : The filename of the rom to play
+2 : The filename of the weight array to load
+3 : The Filename for where to save the results of the test
+4 : How high frame skip should be used
+
+
+example:
+Agent.exe Space_invaders weightArray Results 15
