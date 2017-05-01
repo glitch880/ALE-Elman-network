@@ -369,11 +369,11 @@ GeneticChromosome& GeneticBase::rouletteWheelSelect()
 	
 	int chosenIndex = 0;
 
-	if ((int)totalFitness == 0)  // no fitness on any individual = random individual chosen
+	if ((int)totalFitness <= 0)  // no fitness on any individual = random individual chosen
 	{
 		std::uniform_int_distribution<int> rand(0, population.size()-1);
 		chosenIndex = rand(gen);
-//		cout << "Parent " << chosenIndex << " chosen randomly" << endl;
+		cout << "Parent " << chosenIndex << " chosen randomly" << endl;
 		return population[chosenIndex];
 	}
 
