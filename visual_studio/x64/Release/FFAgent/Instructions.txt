@@ -1,14 +1,15 @@
 To start the agent use the command window.
 
-This application trains a feedforward network on a certain game. The results are saved based on the filename chosen and some suffixes
+This application trains a elman network on a certain game. The results are saved based on the filename chosen and some suffixes
 
 The program needs 4-5 arguments
 
 1 : The filename of the rom to play
 2 : The filename for the saved weight array
 3 : How often to save during evolution
-4 : 0 / 1 - decides if we should resume evolution from another file
-5 : Filename of the generation to load
+4 : 0 / 1 - decides if we should show gameplay
+5 : 0 / 1 - decides if we should resume evolution from another file
+6 : Filename of the generation to load
 
 example:
-Agent.exe Space_invaders weightArray 5 1 FileToLoad
+Agent.exe Space_invaders weightArray 5 1 1 FileToLoad

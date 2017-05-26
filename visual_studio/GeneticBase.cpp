@@ -395,9 +395,6 @@ GeneticChromosome& GeneticBase::rouletteWheelSelect()
 
 GeneticChromosome & GeneticBase::tourneySelect()
 {
-	
-
-
 	std::uniform_int_distribution<int> range(0, population.size()-1);
 	int chosenIndex = 0;
 	int HighestFitness = 0;

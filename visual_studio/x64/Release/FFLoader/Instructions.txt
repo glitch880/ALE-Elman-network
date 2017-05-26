@@ -1,6 +1,6 @@
 To start the agent use the command window.
 
-This application loads a network trained by the feedforward agent. It then prints the results to a file
+This application loads a network trained by the elman agent. It then prints the results to a file
 
 The program needs 4 arguments
 
@@ -8,7 +8,8 @@ The program needs 4 arguments
 2 : The filename of the weight array to load
 3 : The Filename for where to save the results of the test
 4 : How high frame skip should be used
+5 :  0 / 1 - decides if we should show gameplay
 
 
 example:
-Agent.exe Space_invaders weightArray Results 15
+Agent.exe Space_invaders weightArray Results 15 1
